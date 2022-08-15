@@ -19,6 +19,14 @@ const divide = function(a, b){
 }
 
 
+//Operator function 
+
+const operate = function(operator, a, b){
+
+    return operator(a, b);
+}
 
 
-console.log(divide(4, 2)); 
+
+
+//sconsole.log(divide(4, 2)); 
