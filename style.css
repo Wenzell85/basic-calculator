@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body{
@@ -49,16 +50,52 @@ body{
 }
 
 .butt-set1{
-    border: 1px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid blue; */
     width: 368px;
+    height: 390px;
+}
+
+.line{
+    border: 1px solid red;
+    width: 2px;
     height: 390px;
 
 }
 
-.butt-set2{
+.button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid blue;
+    border-radius: 5px;
+    color: blue;
+    font-size: 3rem;
+    font-weight: bold;    
+    width: 122px;
+    height: 78px;
+
+}
+
+.butt-set2{
+    /* border: 1px solid blue; */
     width: 92px;
     height: 390px;
+
+}
+
+.button2{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: 1px solid blue;
+    border-radius: 5px;
+    color: blue;
+    font-size: 3rem;
+    font-weight: bold;   
+    width: 91px;
+    height: 78px;
 
 }
 
