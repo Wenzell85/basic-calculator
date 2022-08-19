@@ -26,10 +26,23 @@ function buttonClick(e) {
 
         display.innerText = maxDigits;
         
+        
     }else{
 
         display.innerText = expression;
     } 
+
+    if(expression.charAt(0)=='0' && expression.length > 1){
+        let zeroPrefix = expression.slice(1, 13);
+        display.innerText = zeroPrefix;
+
+    }
+
+    if(expression.charAt(1)== '.'){
+
+        let comm = expression.slice(0, 12);
+        display.innerText = comm;
+    }
     
     
     if(this.innerText == 'C'){
@@ -43,9 +56,10 @@ function buttonClick(e) {
 
         display.innerText = '0';
         expression = '';
-    }
-
+    }  
     
+    
+
 
 };
 
