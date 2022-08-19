@@ -28,7 +28,7 @@ body{
 .logo{
     color: blue;
     text-align: left;
-    font-weight: bolder;
+    font-weight: normal;
 }
 
 .display{
@@ -37,7 +37,7 @@ body{
     align-items: center;
     color: blue;
     font-size: 4rem;
-    font-weight:bold;
+    font-weight:normal;
     border: 1px solid blue;
     padding: 10px;
     width: 480px;
@@ -78,7 +78,7 @@ body{
     border-radius: 5px;
     color: blue;
     font-size: 3rem;
-    font-weight: bold;    
+    font-weight: normal;    
     width: 122px;
     height: 78px;
 
@@ -99,7 +99,7 @@ body{
     border-radius: 5px;
     color: blue;
     font-size: 3rem;
-    font-weight: bold;   
+    font-weight: normal;   
     width: 91px;
     height: 78px;
 

@@ -92,7 +92,7 @@ const divide = function (a, b) {
 //Operator function       
 
 
-function operate (e) {
+function operate () {
 
     let answer = eval(expression);
 
