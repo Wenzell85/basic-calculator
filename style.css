@@ -105,6 +105,14 @@ body{
 
 }
 
+.butt:hover {
+    background-color: rgb(95, 95, 127);
+}
+
+.op{
+    background-color: rgb(82, 223, 82);
+}
+
 
 
 
