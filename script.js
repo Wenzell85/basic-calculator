@@ -95,15 +95,13 @@ const divide = function (a, b) {
 function operate () {
 
     let answer = eval(expression);
-    const answer2 = answer.toString().slice(0,12);
-
-    console.log(answer2);
+    let answer2 = answer.toString().slice(0, 12);    
 
     display.innerText = answer2;     
 
     expression = answer;
 
-    console.log(answer.toString());
+    
 }
 
 
