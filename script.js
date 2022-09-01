@@ -2,6 +2,7 @@
 const button = document.querySelectorAll('.butt'); //each button clicked 
 const display = document.querySelector('.display'); //Display 
 const equalButt = document.querySelector('#equal'); //equal button
+const worldButt = document.querySelector('#logo'); //Logo button
 let expression = '';
 
 
@@ -11,6 +12,11 @@ button.forEach((item) => {
 
 });
 
+worldButt.addEventListener('click', function(){
+    display.innerHTML = 'Developed By: Mawande M<br>Date: 15.08.2022 <br>At: East London, SA';
+    display.classList.add('wb');
+})
+
 
 
 //*************************************function library**************************************************/
@@ -19,6 +25,8 @@ button.forEach((item) => {
 //button  click function 
 
 function buttonClick(e) {
+
+    display.classList.remove('wb');
     expression += this.innerText;    
     if (expression.length > 12) {
 
