@@ -13,7 +13,7 @@ button.forEach((item) => {
 });
 
 worldButt.addEventListener('click', function(){
-    display.innerHTML = 'Developed By: Mawande M<br>Date: 15.08.2022 <br>At: East London, SA';
+    display.innerHTML = 'Developed By: Wenzell85<br>Date: 15.08.2022 <br>At: East London, SA';
     display.classList.add('wb');
 })
 
