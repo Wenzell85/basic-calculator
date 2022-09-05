@@ -9,6 +9,8 @@ body{
     align-items: center;
     background-color: rgba(129, 131, 134, 0.3);
     height: 650px;
+    overflow: auto;
+  
 }
 
 .main-container{
@@ -19,6 +21,7 @@ body{
     border: 4px outset rgb(62, 62, 64);
     background-color: rgb(2, 4, 25);
     width: 500px;
+    
 }
 
 .title-logo{
@@ -31,6 +34,7 @@ body{
     font-weight: normal;
     text-shadow: 2px 2px 10px #ff0000;
 }
+
 
 .display{
     display: flex;
