@@ -20,12 +20,12 @@ body{
     gap: 10px;
     border: 4px outset rgb(62, 62, 64);
     background-color: rgb(2, 4, 25);
-    width: 500px;
+    width: min(100%, 500px);
     
 }
 
 .title-logo{
-    width: 480px;
+    width: 96%;
 }
 
 .logo{
@@ -45,8 +45,8 @@ body{
     font-weight:normal;
     border: 1px solid blue;
     padding: 10px;
-    width: 480px;
-    height: 100px;
+    width: 96%;
+    height: 17%;
     background-color: rgba(34, 37, 36, 0.698);
 }
 
@@ -62,7 +62,7 @@ body{
     align-items: center;
     justify-content: space-evenly;
     /* border: 1px solid blue; */
-    width: 480px;
+    width: 96%;
     height: 400px;
     margin-bottom: 10px;
     
@@ -71,7 +71,7 @@ body{
 .butt-set1{
     display: flex;
     flex-wrap: wrap;    
-    width: 368px;
+    width: 85%;
     height: 390px;
 }
 
@@ -91,14 +91,14 @@ body{
     color: blue;
     font-size: 3rem;
     font-weight: normal;    
-    width: 122px;
+    width: 33%;
     height: 78px;
 
 }
 
 .butt-set2{
     /* border: 1px solid blue; */
-    width: 92px;
+    width: 25%;
     height: 390px;
 
 }
@@ -112,7 +112,7 @@ body{
     color: blue;
     font-size: 3rem;
     font-weight: normal;   
-    width: 91px;
+    width: 100%;
     height: 78px;
 
 }
